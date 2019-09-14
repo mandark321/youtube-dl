@@ -5,9 +5,8 @@ youtube-dl - download videos from youtube.com or other video platforms
 - [INSTALLATION](#installation)
 - [DESCRIPTION](#description)
 - [OPTIONS](#options)
-    - [Network Options](##Network Options:)
-    - [Geo Blocking](##Geo Blocking:)
-    - [
+    - [Network Options](#network-options)
+    - [Geo Blocking](#geo-blocking)
 - [CONFIGURATION](#configuration)
 - [OUTPUT TEMPLATE](#output-template)
 - [FORMAT SELECTION](#format-selection)
@@ -77,7 +76,7 @@ Alternatively, refer to the [developer instructions](#developer-instructions) fo
 | --no-mark-watched | Do not mark videos watched (YouTube only)
     --no-color                       Do not emit color codes in output
 
-## Network Options:
+## Network Options
     --proxy URL                      Use the specified HTTP/HTTPS/SOCKS proxy.
                                      To enable SOCKS proxy, specify a proper
                                      scheme. For example
@@ -88,7 +87,7 @@ Alternatively, refer to the [developer instructions](#developer-instructions) fo
     -4, --force-ipv4                 Make all connections via IPv4
     -6, --force-ipv6                 Make all connections via IPv6
 
-## Geo Restriction:
+## Geo Restriction
     --geo-verification-proxy URL     Use this proxy to verify the IP address for
                                      some geo-restricted sites. The default
                                      proxy specified by --proxy (or none, if the
@@ -105,7 +104,7 @@ Alternatively, refer to the [developer instructions](#developer-instructions) fo
                                      explicitly provided IP block in CIDR
                                      notation
 
-## Video Selection:
+## Video Selection
     --playlist-start NUMBER          Playlist video to start at (default is 1)
     --playlist-end NUMBER            Playlist video to end at (default is last)
     --playlist-items ITEM_SPEC       Playlist video items to download. Specify
